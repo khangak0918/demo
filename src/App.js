@@ -1,17 +1,15 @@
-import Header from "./components/Header";
+import DetailPost from "./components/task2/detailpost";
+import Topic from "./components/task2/topic";
+
+
 
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      Đăng nhập
-      </button>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      Đăng kí 
-      </button>
+    <div class="container">
+      <Topic/>
     </div>
+    
   );
 }
 
